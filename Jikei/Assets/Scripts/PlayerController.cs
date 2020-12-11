@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
           rb.velocity = new Vector2(speed, rb.velocity.y);
 
           if(isGrounded)
-            animator.Play("Player_Run");
+            animator.Play("Hero_Run");
 
         sprite.flipX = false;
       }
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
           rb.velocity = new Vector2(-speed, rb.velocity.y);
 
           if(isGrounded)
-            animator.Play("Player_Run");
+            animator.Play("Hero_Run");
 
         sprite.flipX = true;
       }
@@ -55,12 +55,12 @@ public class PlayerController : MonoBehaviour
       {
           rb.velocity = new Vector2(0, rb.velocity.y);
           if(isGrounded)
-          animator.Play("Player_idle");
+          animator.Play("Hero_Idle");
       }
       if (Input.GetKey(KeyCode.W) && isGrounded == true)
       {
           rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-          animator.Play("Player_Jump");
+          animator.Play("Hero_Jump");
       }
   }
 }
