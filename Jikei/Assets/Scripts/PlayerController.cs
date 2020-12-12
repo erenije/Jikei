@@ -14,13 +14,17 @@ public class PlayerController : MonoBehaviour
     int jumpForce;
     [SerializeField]
     Transform groundCheck;
-
+    int playerObject, collideObject;
     bool isGrounded;
+
   private void Start()
   {
       animator = GetComponent<Animator>();
       rb = GetComponent<Rigidbody2D>();
       sprite = GetComponent<SpriteRenderer>();
+
+      playerObject = LayerMask.NameToLayer("Player");
+      collideObject = LayerMask.NameToLayer("Ground");
   }
 
   private void FixedUpdate()
@@ -61,6 +65,14 @@ public class PlayerController : MonoBehaviour
       {
           rb.velocity = new Vector2(rb.velocity.x, jumpForce);
           animator.Play("Hero_Jump");
+      }
+       if (rb.velocity.y > 0)
+      {
+          Physics2D.IgnoreLayerCollision(playerObject, collideObject, true);
+      }
+      else
+      {
+          Physics2D.IgnoreLayerCollision(playerObject, collideObject, false);
       }
   }
 }
