@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 02cca31cd986a49488ca449318899359
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5432333155300106853
+    second: heart-sprite-png-transparent_0
+  - first:
+      213: 2691449321977442850
+    second: heart-sprite-png-transparent_1
+  - first:
+      213: 97181397529803606
+    second: heart-sprite-png-transparent_2
+  - first:
+      213: 6498325206000951180
+    second: heart-sprite-png-transparent_3
+  - first:
+      213: -6611908455893881606
+    second: heart-sprite-png-transparent_4
+  - first:
+      213: -7745862747054470634
+    second: heart-sprite-png-transparent_5
+  - first:
+      213: 6797560870076462499
+    second: heart-sprite-png-transparent_6
+  - first:
+      213: 5070902560273983842
+    second: heart-sprite-png-transparent_7
+  - first:
+      213: -7484326783675138111
+    second: heart-sprite-png-transparent_8
+  - first:
+      213: -8488296416018088557
+    second: heart-sprite-png-transparent_9
+  - first:
+      213: -5403526778554224950
+    second: heart-sprite-png-transparent_10
+  - first:
+      213: -2679103820772723249
+    second: heart-sprite-png-transparent_11
+  - first:
+      213: -2425956700813649542
+    second: heart-sprite-png-transparent_12
+  - first:
+      213: 8023610568168266677
+    second: heart-sprite-png-transparent_13
+  - first:
+      213: -358274117786283993
+    second: heart-sprite-png-transparent_14
+  - first:
+      213: -3776256466595587061
+    second: heart-sprite-png-transparent_15
+  - first:
+      213: 7317289585721434300
+    second: heart-sprite-png-transparent_16
+  - first:
+      213: -4697546727968069608
+    second: heart-sprite-png-transparent_17
+  - first:
+      213: 3124529664808378323
+    second: heart-sprite-png-transparent_18
+  - first:
+      213: -6059526456505007915
+    second: heart-sprite-png-transparent_19
+  - first:
+      213: -402489746324642214
+    second: heart-sprite-png-transparent_20
+  - first:
+      213: 4549586184324894568
+    second: heart-sprite-png-transparent_21
+  - first:
+      213: -5491060428143147582
+    second: heart-sprite-png-transparent_22
+  - first:
+      213: -5585181608780964198
+    second: heart-sprite-png-transparent_23
+  - first:
+      213: 9128556759644012099
+    second: heart-sprite-png-transparent_24
+  - first:
+      213: 1474212883473181741
+    second: heart-sprite-png-transparent_25
+  - first:
+      213: -2742610891038914312
+    second: heart-sprite-png-transparent_26
+  - first:
+      213: -7686012968513196619
+    second: heart-sprite-png-transparent_27
+  - first:
+      213: 4179694525524541751
+    second: heart-sprite-png-transparent_28
+  - first:
+      213: 5046455799703287913
+    second: heart-sprite-png-transparent_29
+  - first:
+      213: 8493242489690605493
+    second: heart-sprite-png-transparent_30
+  - first:
+      213: 8819383235599918510
+    second: heart-sprite-png-transparent_31
+  - first:
+      213: 8965317557008656836
+    second: heart-sprite-png-transparent_32
+  - first:
+      213: 6471348071949762467
+    second: heart-sprite-png-transparent_33
+  - first:
+      213: -8745644640322723870
+    second: heart-sprite-png-transparent_34
+  - first:
+      213: 4423517662679065617
+    second: heart-sprite-png-transparent_35
+  - first:
+      213: -4533751327136814352
+    second: heart-sprite-png-transparent_36
+  - first:
+      213: -3514566712032229924
+    second: heart-sprite-png-transparent_37
+  - first:
+      213: 407928137496070343
+    second: heart-sprite-png-transparent_38
+  - first:
+      213: 5421289705813252187
+    second: heart-sprite-png-transparent_39
+  - first:
+      213: -1819924758858829265
+    second: heart-sprite-png-transparent_40
+  - first:
+      213: 8973803622169817569
+    second: heart-sprite-png-transparent_41
+  - first:
+      213: 8192634382241750617
+    second: heart-sprite-png-transparent_42
+  - first:
+      213: -2493599713393248441
+    second: heart-sprite-png-transparent_43
+  - first:
+      213: 5870138720918951651
+    second: heart-sprite-png-transparent_44
+  - first:
+      213: -7143503510621479515
+    second: heart-sprite-png-transparent_45
+  - first:
+      213: 3121753291559387933
+    second: heart-sprite-png-transparent_46
+  - first:
+      213: -1881472829543640266
+    second: heart-sprite-png-transparent_47
+  - first:
+      213: -2450677728570625393
+    second: heart-sprite-png-transparent_48
+  - first:
+      213: 3594669587361470208
+    second: heart-sprite-png-transparent_49
+  - first:
+      213: -6716407814163035000
+    second: heart-sprite-png-transparent_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.16133939, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 613, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart-sprite-png-transparent_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 290
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5626d371936836b40800000000000000
+      internalID: 5432333155300106853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-sprite-png-transparent_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 290
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2227e6ff5e2f95520800000000000000
+      internalID: 2691449321977442850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-sprite-png-transparent_2
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 290
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b3a8657f1495100800000000000000
+      internalID: 97181397529803606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 133.71002, y: -143.42401}
+      - {x: 133.71002, y: 139.99554}
+      - {x: 446.8429, y: 146.85248}
+      - {x: 447.98572, y: -143.42401}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
