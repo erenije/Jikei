@@ -53,7 +53,6 @@ public class Enemy : MonoBehaviour
             {
                 other.gameObject.GetComponent<PlayerMove>().Death();
             }
-            Debug.Log(other.GetContact(0).normal.y);
         }
     }
 

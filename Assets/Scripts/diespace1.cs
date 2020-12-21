@@ -11,7 +11,7 @@ public class diespace1 : MonoBehaviour
         if (other.tag == "Player"){
             if (GameIsPaused)
             {
-                Restart();
+                
              }
             else
             {
