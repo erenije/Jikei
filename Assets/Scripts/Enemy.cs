@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator animator;
-    public diespace1 dead;
 
     [Header("Stats")] public float speed;
     public float bounceForce;

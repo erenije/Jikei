@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviour
     public float checkRadius = 0.5f;
     public LayerMask Ground;
     public diespace1 dead;
+    public PlayerHealth hp;
 
     void Start()
     {
@@ -63,6 +64,6 @@ public class PlayerMove : MonoBehaviour
 
     public void Death()
     {
-        dead.Pause()    ;
+        hp.currentHealth -= 5f;
     }
 }
