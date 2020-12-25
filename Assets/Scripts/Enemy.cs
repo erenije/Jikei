@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator animator;
+    [SerializeField] private AudioSource SDeath;
 
     [Header("Stats")] public float speed;
     public float bounceForce;
@@ -48,6 +49,7 @@ public class Enemy : MonoBehaviour
                 animator.SetTrigger("Death");
                 direction = 0;
                 other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, bounceForce), ForceMode2D.Impulse);
+                SDeath.Play();
             }
             else
             {

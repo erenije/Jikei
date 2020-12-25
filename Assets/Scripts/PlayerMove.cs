@@ -17,6 +17,8 @@ public class PlayerMove : MonoBehaviour
     public LayerMask Ground;
     public diespace1 dead;
     public PlayerHealth hp;
+    [SerializeField] private AudioSource Jumping;
+    [SerializeField] private AudioSource Hurt;
 
     void Start()
     {
@@ -43,7 +45,7 @@ public class PlayerMove : MonoBehaviour
     }
     
     void Walk()
-    {
+    { 
         moveVector.x = Input.GetAxis("Horizontal");
         anim.SetFloat("moveX", Mathf.Abs(moveVector.x));
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
@@ -53,7 +55,9 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && onGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Jumping.Play();
         }
+        
     }
 
     void CheckingGround()
@@ -64,6 +68,7 @@ public class PlayerMove : MonoBehaviour
 
     public void Death()
     {
+        Hurt.Play();
         hp.currentHealth -= 5f;
     }
 }
