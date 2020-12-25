@@ -18,6 +18,8 @@ public class PlayerMove : MonoBehaviour
     public diespace1 dead;
     [SerializeField] private AudioSource Jumping;
     [SerializeField] private AudioSource Sdeath;
+    [SerializeField] private AudioSource Money;
+
 
     void Start()
     {
@@ -69,5 +71,15 @@ public class PlayerMove : MonoBehaviour
     {
         Sdeath.Play();
         dead.Pause();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Cherry")
+        {
+            Money.Play();
+            Collect.TheCherry += 1;
+            Destroy(collision.gameObject);
+        }
     }
 }
