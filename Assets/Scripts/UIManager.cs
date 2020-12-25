@@ -32,6 +32,6 @@ public class UIManager : MonoBehaviour
     }
     public void Secondlvl()
     {
-        SceneManager.LoadScene(2);
+        //SceneManager.LoadScene(2);
     }
 }

@@ -16,9 +16,8 @@ public class PlayerMove : MonoBehaviour
     public float checkRadius = 0.5f;
     public LayerMask Ground;
     public diespace1 dead;
-    public PlayerHealth hp;
     [SerializeField] private AudioSource Jumping;
-    [SerializeField] private AudioSource Hurt;
+    [SerializeField] private AudioSource Sdeath;
 
     void Start()
     {
@@ -68,7 +67,7 @@ public class PlayerMove : MonoBehaviour
 
     public void Death()
     {
-        Hurt.Play();
-        hp.currentHealth -= 5f;
+        Sdeath.Play();
+        dead.Pause();
     }
 }
