@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     }
     public void NewGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         Collect.TheCherry = 0;
     }
     public void Selectlvl()
@@ -32,6 +32,7 @@ public class UIManager : MonoBehaviour
     }
     public void Secondlvl()
     {
-        //SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
+        Collect.TheCherry = 0;
     }
 }
