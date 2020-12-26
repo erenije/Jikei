@@ -7,7 +7,6 @@ public class UIManager : MonoBehaviour
 {
     public GameObject mainMenuUI;
     public GameObject selectMenuUI;
-
     void Start()
     {
         mainMenuUI.SetActive(true);

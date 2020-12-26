@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class diespace1 : MonoBehaviour
 {
+    public static bool dead = false;
     public static bool GameIsPaused = false;
     public GameObject deadMenuUI;
     void OnTriggerEnter2D(Collider2D other)
@@ -25,9 +26,12 @@ public class diespace1 : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        Collect.TheCherry =0;
+        dead=false;
     }
     public void Pause()
     {
+        dead=true;
         deadMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

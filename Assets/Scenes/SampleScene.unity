@@ -4731,7 +4731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 955212698}
   radius: 6
-  angularSpeed: 1
+  angularSpeed: 1.5
 --- !u!114 &1492120390
 MonoBehaviour:
   m_ObjectHideFlags: 0

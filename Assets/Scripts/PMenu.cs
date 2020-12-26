@@ -13,7 +13,7 @@ public class PMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)&& (settings2 == false))
+        if (Input.GetKeyDown(KeyCode.Escape)&& (settings2 == false)&& (diespace1.dead == false))
         {
             if (GameIsPaused)
             {
