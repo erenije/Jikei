@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     public void NewGame()
     {
         SceneManager.LoadScene(1);
+        Collect.TheCherry = 0;
     }
     public void Selectlvl()
     {
